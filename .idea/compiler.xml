@@ -8,7 +8,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="hystrix" />
         <module name="zuul" />
+        <module name="zipkinclient" />
         <module name="nativeconfigserver" />
+        <module name="zipkin" />
         <module name="resttemplate" />
         <module name="feign" />
         <module name="nativeconfigclient" />
@@ -31,6 +33,8 @@
       <module name="nativeconfigserver" options="-parameters" />
       <module name="resttemplate" options="-parameters" />
       <module name="ribbon" options="-parameters" />
+      <module name="zipkin" options="-parameters" />
+      <module name="zipkinclient" options="-parameters" />
       <module name="zuul" options="-parameters" />
     </option>
   </component>
